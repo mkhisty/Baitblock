@@ -18,9 +18,9 @@ export function NavBar() {
                     height={100}
                     priority
                 />
-                <GradientText content="Baitblock" className="text-4xl" />
+                <GradientText content="Baitblock" className="text-4xl"/>
             </NavbarBrand>
-            <NavbarContent justify="end">
+            <NavbarContent justify="end" className="hidden sm:flex">
                 <Button
                     variant="ghost"
                     size="lg"

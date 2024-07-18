@@ -2,7 +2,7 @@ import { Chip, Card, CardHeader, Image } from "@nextui-org/react";
 
 export function Facts() {
     return (
-        <div className="flex flex-col items-center py-14 h-screen">
+        <div className="flex flex-col items-center py-14">
             <Chip 
                 size="lg" 
                 color="secondary"
@@ -10,8 +10,8 @@ export function Facts() {
             >
                 Did You Know?
             </Chip>
-            <div className="flex mt-10">
-                <Card className="w-1/3 mx-5 bg-[#0e0e0e]" isHoverable isBlurred>
+            <div className="flex mt-10 flex-col lg:flex-row items-center gap-y-5">
+                <Card className="w-2/3 lg:w-1/3 mx-5 bg-[#0e0e0e]" isHoverable isBlurred>
                     <CardHeader className="absolute flex flex-col items-start mt-3">
                         <h4 className="text-white font-medium text-lg">There are 3.4 billion phishing emails sent each day</h4>
                     </CardHeader>
@@ -22,7 +22,7 @@ export function Facts() {
                         src="/laptop.jpg"
                     />
                 </Card>
-                <Card className="w-1/3 mx-5 bg-[#0e0e0e]" isHoverable isBlurred>
+                <Card className="w-2/3 lg:w-1/3 mx-5 bg-[#0e0e0e]" isHoverable isBlurred>
                     <CardHeader className="absolute flex flex-col items-start mt-3">
                         <h4 className="text-white font-medium text-lg">83% of organizations worldwide have been targeted through phishing</h4>
                     </CardHeader>
@@ -33,7 +33,7 @@ export function Facts() {
                         src="/hand.jpg"
                     />
                 </Card>
-                <Card className="w-1/3 mx-5 bg-[#0e0e0e]" isHoverable isBlurred>
+                <Card className="w-2/3 lg:w-1/3 mx-5 bg-[#0e0e0e]" isHoverable isBlurred>
                     <CardHeader className="absolute flex flex-col items-start mt-3">
                         <h4 className="text-white font-medium text-lg">More than $10 billion are lost to phishing scams per year</h4>
                     </CardHeader>

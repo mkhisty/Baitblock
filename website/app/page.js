@@ -11,9 +11,9 @@ export default function Home() {
     <main>
       <NavBar />
       <div className="h-screen w-screen bg-[url('/dark-background.jpg')] bg-cover bg-center">
-        <div className="absolute w-screen h-screen flex justify-center items-center top-0 flex-col gap-y-6">
+        <div className="absolute w-screen h-screen flex justify-center items-center top-0 flex-col gap-y-6 text-center lg:text-left px-5">
           <GradientText content="Empower Your Defenses" className="text-7xl"/>
-          <p className="text-xl">Don't let youself take the bait! Get notified for the release of Baitblock.</p>
+          <p className="text-xl">Don&apos;t let youself take the bait! Get notified for the release of Baitblock.</p>
           <Button
             variant="faded"
             color="primary"
